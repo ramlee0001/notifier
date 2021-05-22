@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Logincheck</servlet-name>
+  	<display-name>Logincheck</display-name>
+  	<description></description>
+  	<servlet-class>servlets.Logincheck</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginValidate</servlet-name>
+  	<display-name>LoginValidate</display-name>
+  	<description></description>
+  	<servlet-class>servlets.LoginValidate</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Registeruser</servlet-name>
+  	<display-name>Registeruser</display-name>
+  	<description></description>
+  	<servlet-class>servlets.Registeruser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<display-name>Logout</display-name>
+  	<description></description>
+  	<servlet-class>servlets.Logout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Edituservalidate</servlet-name>
+  	<display-name>Edituservalidate</display-name>
+  	<description></description>
+  	<servlet-class>servlets.Edituservalidate</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Addnotes</servlet-name>
+  	<display-name>Addnotes</display-name>
+  	<description></description>
+  	<servlet-class>servlets.Addnotes</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Logincheck</servlet-name>
+  	<url-pattern>/Logincheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginValidate</servlet-name>
+  	<url-pattern>/LoginValidate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Registeruser</servlet-name>
+  	<url-pattern>/Registeruser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Edituservalidate</servlet-name>
+  	<url-pattern>/Edituservalidate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Addnotes</servlet-name>
+  	<url-pattern>/Addnotes</url-pattern>
+  </servlet-mapping>
+</web-app>
